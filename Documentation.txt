@@ -1,0 +1,96 @@
+Documentation
+
+Written by: Vinay Williams
+Written on: 02/02/21
+Module    : AE6030
+Assignment: A3
+
+This script is meant to act as a system model for a cubesat. Its input 
+system is dynamic allowing it to read data from in script or from an excel
+spreadsheet separate to the matlab script. 
+
+* Note: As of writing this there is not implementation of reading that from
+        an excel sheet. 
+It also implements three ways in which orbit elements can be read into the 
+script. This is defined using the 'flag_orbit_data' in the conditions file
+for incscript definition of variables. 
+
+    1 - Read from script
+    2 - Read from script defined tle
+    3 - Read tle from server (blank, has to be setup accordingly)
+
+The script operate in discreet interconnected bubbles of code all working 
+from the script main which is called when conditions is ran. The conditions
+file also acts as the input page.
+
+Bibliography:
+
+    Will Campbell (2021). Earth-sized Sphere with Topography 
+    (https://www.mathworks.com/matlabcentral/fileexchange/27
+    123-earth-sized-sphere-with-topography), MATLAB Central 
+    File Exchange. Retrieved February 2, 2021.
+
+    Meg Noah (2021). Satellite Orbit Coordinate 
+    Transformations (https://www.mathworks.com/matlabcentral
+    /fileexchange/73873-satellite-orbit-coordinate-
+    transformations), MATLAB Central File Exchange. Retrieved
+    February 2, 2021.
+
+    Sellers, J.J., Astore, W.J., Giffen, R.B. and Larson, W.J.,
+    2000. Understanding space: An introduction to 
+    astronautics. Primis.
+
+    Brown, C. D. (2002) Elements of Spacecraft Design. Reston, 
+    VA: AIAA. AIAA Education Series		
+
+    Ampatzoglou, A., & Kostopoulos, V. (2018). Design, Analysis,
+    Optimization, Manufacturing, and Testing of a 2U Cubesat. 
+    International Journal of Aerospace Engineering, 2018, 1–15.
+    doi:10.1155/2018/9724263 
+
+    Hyperphysics.phy-astr.gsu.edu. 2021. Kepler's Laws. [online]
+    Available at: <http://hyperphysics.phy-astr.gsu.edu/hbase/
+    kepler.html> [Accessed 2 February 2021].	
+
+    AGI (2019) CelesTrak. Available at: https://www.celestrak.
+    com/NORAD/documentation/tle-fmt.php (Acessed: 10/03/20)
+
+    Shaw, P. (2021) 'Introduction to Space Systems Engineering'
+    [PowerPoint presentation]. AE6030 Space Vehicle Design. 
+    Available at: https://canvas.kingston.ac.uk/courses/13200/
+    files/1323293?module_item_id=41653 (Acessed: 02/02/21)
+
+    Shaw, P. (2021) 'Mission Design, Payloads & Sensing'
+    [PowerPoint presentation]. AE6030 Space Vehicle Design.
+    Available at: https://canvas.kingston.ac.uk/courses/
+    13200/files/1369588?module_item_id=42000 (Acessed: 02/02/21)
+
+    Meysam Mahooti (2021). groundtrack (https://www.mathworks.com
+    /matlabcentral/fileexchange/66000-groundtrack), MATLAB Central
+    File Exchange. Retrieved March 12, 2021.
+
+    Shaw, P. (2021) 'Orbits Mechanics for Remote Sensing' 
+    [PowerPoint presentation]. AE6030 Space Vehicle Design. 
+    Available at: https://canvas.kingston.ac.uk/courses/13200/
+    files/1351640?module_item_id=41898 (Acessed: 02/02/21)
+
+    Anon (2020) CUBESAT HANDBOOK: from mission design to operations.
+    Place of publication not identified: ELSEVIER ACADEMIC Press.
+
+    Shaw, P. (2021) 'Spacecraft Power Systems' 
+    [PowerPoint presentation]. AE6030 Space Vehicle Design. 
+    Available at: https://canvas.kingston.ac.uk/courses/13200/
+    files/1451364?module_item_id=42564 (Acessed: 02/02/21)
+
+    Shaw, P. (2021) 'Thermal Management' [PowerPoint presentation].     
+    AE6030 Space Vehicle Design. Available at: https://canvas.
+    kingston.ac.uk/courses/13200/files/1494876?module_item_id=42865 
+    (Acessed: 02/02/21)
+
+    David Eagle (2021). Cowell's Method for Earth Satellites (https:
+    //www.mathworks.com/matlabcentral/fileexchange/39703-cowell-s
+    -method-for-earth-satellites), MATLAB Central File Exchange. 
+    Retrieved February 16, 2021.
+
+    Wertz, J. R. (2010) Space mission analysis and design. Hawthorne,
+    CA: Microcosm Press.
