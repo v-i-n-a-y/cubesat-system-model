@@ -1,6 +1,6 @@
 # CubeSat System Model
 
-This is an semi-complex CubeSat system model which can be used for theoretical mission proposal. 
+This is a semi-complex CubeSat system model which can be used for theoretical mission proposal. 
 
 The file "main.m" is the entry point into the script whilst "conditions.m" is where the parameters can be adjusted. 
 
